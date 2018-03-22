@@ -79,9 +79,6 @@ def main():
     welcome_decor = '=' * len(welcome_str)
     print('{}\n{}\n{}'.format(welcome_decor, welcome_str, welcome_decor))
     print('Filters initiated...')
-    print('  -------------------------------------------')
-    print('  !!!WARNING | Highly experimental feature!!!')
-    print('  -------------------------------------------')
 
     import segmentator.filter
 
